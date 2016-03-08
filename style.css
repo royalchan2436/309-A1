@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#coursename {
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    float: left;
+    color: #ff0000;
+}
+
+.container{
+     width: 100%;
+     text-align: center;
+     position: fixed;
+     background-color: #efefef;
+}
+
+.container ul{
+     float: right;
+     line-height: 50px;
+}
+
+.container li{
+      display: inline-block;
+      list-style-type: none;
+}
+
+.container a{
+      text-decoration: none;
+      padding: 10px;
+      color: #000;
+      font-family: sans-serif;
+      font-size: 15px;
+}
+
+.container a:hover{
+    color: #fff;
+    background-color: #000;
+    border-radius: 15px;
+}
+
+.box {
+     width: 1080px;
+     margin-left: auto;
+     margin-right: auto;
+     height: auto;
+     padding-top: 110px;
+}
+
+#syllabus{
+     font-size: 30px;
+     text-decoration: underline;
+     font-family: sans-serif;
+     float: left;
+}
+
+.syllabus{
+     font-size: 20px;
+     float: right;
+     font-family: sans-serif;
+}
+
+#overview{
+     clear: both;
+     font-size: 30px;
+     text-decoration: underline;
+     font-family: sans-serif;
+}
+
+.overview{
+     font-size: 20px;
+     font-family: sans-serif;
+}
+
+#reading{
+     font-size: 30px;
+     text-decoration: underline;
+     font-family: sans-serif;
+}
+
+.reading{
+     font-size: 20px;
+     font-family: sans-serif;
+}
+
+#prep{
+     font-size: 30px;
+     text-decoration: underline;
+     font-family: sans-serif;
+}
+
+.prep{
+     font-size: 20px;
+     font-family: sans-serif;
+}
+
+.assignment{
+     font-size: 30px;
+     text-decoration: underline;
+     font-family: sans-serif;
+}
+
+
+#assignment{
+     margin: 0 auto;
+     display: table;
+     width: 1080px;
+     text-align: center;
+     border: 1px solid #ccc;
+}
+
+.a-row {
+     display:table-row;
+
+}
+
+.a-data{
+     display: table-cell;
+     padding: 10px;
+     border: 1px solid #ccc;
+}
+
+.clear{
+     clear: both;
+}
+
+
+#policy{
+      font-size: 30px;
+      font-family: sans-serif;
+}
+
+.policy{
+     font-size: 20px;
+     font-family: sans-serif;
+}
+
+#schedule{
+      font-size: 30px;
+      font-family: sans-serif;
+}
+
+.week{
+      list-style: none;
+      font-size: 20px;
+}
+
+#cdf{
+      font-size: 30px;
+      font-family: sans-serif;
+}
+
+.cdf{
+     font-size: 20px;
+     font-family: sans-serif;
+}
+
+#team{
+      font-size: 30px;
+      font-family: sans-serif;
+}
+
+.team{
+     font-size: 20px;
+     font-family: sans-serif;
+}
+
+li{
+     list-style: none;
+}
+
+#feedback{
+      font-size: 30px;
+      font-family: sans-serif;
+}
+
+.feedback{
+     font-size: 20px;
+     font-family: sans-serif;
+}
+
+
+
+#cs-logo{
+      text-align: center;
+}
+
+#cs-logo img:hover{
+     border: 1px solid #3399ff;
+     border-radius: 50%;
+}
+
+
+
+
+@media screen and (min-width: 481px) and (max-width : 768px){
+
+    #coursename{
+        text-align: center;
+        color: #ff0000;
+        background-color: #6699ff;
+        width: 100%;
+    }
+
+    .container ul{
+         float: none;
+         background: #6699ff;
+    }
+
+    .container li{
+         display: inline;
+    }
+
+    .container a{
+         color: #ccc;
+    }
+
+    .container a:hover{
+         color: #fff;
+    }
+
+    .box{
+         padding-top: 150px;
+         width: 100%;
+    }
+
+    #syllabus{
+        margin-top: -80px;
+    }
+
+    .syllabus{
+         margin-top:50px;
+         float: none;
+    }
+
+    #assignment{
+         width: 100%;
+    }
+}
+
+
+@media screen and (min-width : 320px) and (max-width : 480px){
+
+    #coursename{
+        width: 100%;
+        text-align: center;
+        color: #ff0000;
+    }
+
+
+    .container{
+         position: fixed;
+    }
+
+
+    .container ul{
+         float: none;
+         background-color: #997366;
+    }
+
+    .container a{
+         display: block;
+         color: #ccc;
+    }
+
+    .container a:hover{
+         color: #fff;
+    }
+
+    .box{
+         width: 100%;
+         padding-top: 250px;
+    }
+
+    #syllabus{
+        margin-top: -80px;
+    }
+
+    .syllabus{
+         margin-top:50px;
+         float: none;
+    }
+
+    #assignment{
+         width: 100%;
+    }
+
+}
